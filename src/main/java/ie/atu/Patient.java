@@ -1,5 +1,7 @@
 package ie.atu;
 
+import java.util.Scanner;
+
 public class Patient {
 
     public Patient(String given_name, String family_Name, String HSE_Number, int age) {
@@ -9,7 +11,8 @@ public class Patient {
         Age = age;
     }
 
-    public String getGiven_name() {
+
+    public String getGiven_name(String john) {
         return Given_name;
     }
 
@@ -45,4 +48,10 @@ public class Patient {
     String Family_Name;
     String HSE_Number ;
     int Age;
+
+
+   // Scanner sc = new Scanner();
+
+
+
 }
